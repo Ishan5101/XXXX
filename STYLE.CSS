@@ -1,0 +1,295 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    row-gap: 3rem;
+    background-color: black;
+    border: yellow solid 3px;
+
+
+}
+
+.item {
+
+    padding: 3rem;
+    color: white;
+    margin-left: 2rem;
+    font-size: 4rem;
+    transition: all 1s;
+
+
+}
+
+.con {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+        'mc '
+        'ele'
+        'nec '
+        'quant';
+    column-gap: 30px;
+    margin-top: 30px;
+    background-color: black;
+
+
+}
+
+.itemi {
+    border: red solid 3px;
+    background-color: black;
+    color: white;
+
+
+
+
+}
+
+#mechanics {
+    grid-area: mc;
+    display: block;
+}
+
+#ele {
+    grid-area: ele;
+}
+
+#nec {
+    grid-area: nec;
+}
+
+#quant {
+    grid-area: quant;
+}
+
+.facts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+
+}
+
+.f {
+    background-color: cyan;
+    margin: 30px 30px;
+    transition-property: all;
+    transition-duration: 2s;
+
+}
+
+.p {
+    color: cyan;
+}
+
+
+.p:hover {
+
+    font-size: 40px;
+    display: block;
+    color: white;
+}
+
+.f:hover {
+
+    background-color: black;
+}
+
+.cont {
+    background-color: red;
+    padding-top: 30px;
+    width: 200px;
+    height: 200px;
+    animation-name: ph;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    position: relative;
+    margin-top: 30px;
+    display: block;
+
+}
+
+.EQUATION {
+    display: block;
+    animation-name: kh;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    position: relative;
+    color: white;
+
+}
+
+
+.con {
+    display: flex;
+    flex-direction: row;
+
+    background-color: black;
+}
+
+#p1 {
+    grid-area: p1;
+
+}
+
+#p2 {
+    grid-area: p2;
+}
+
+#p3 {
+    grid-area: p3;
+}
+
+#p4 {
+    grid-area: p4;
+    float: right;
+}
+
+.poic {
+    width: 15rem;
+}
+
+.lead {
+    background-color: black;
+}
+
+.ult {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+
+}
+
+
+.item:hover {
+    transform: scale(1.5);
+}
+
+.h3 {
+    color: white;
+}
+
+.h4 {
+    color: rgb(94, 14, 14);
+
+}
+
+#form {
+    border: black 3px solid;
+    margin-top: 30px;
+    background-color: rgb(223, 223, 141);
+}
+
+.input {
+    border: black solid 2px;
+    border-radius: 3px;
+
+}
+
+#heading {
+    border: brown 3px solid;
+    display: inline-block;
+    width: max-content;
+
+}
+
+#heading2 {
+    border: yellow solid 4px;
+}
+.formulas{
+    border: white solid 3px;
+
+}
+
+.tr{
+    color: white;
+    transition-property: all;
+    transition-duration: 1s;
+  font-size: 40px;
+}
+.trr{
+    color: red;
+    transition-property: all;
+
+    transition-duration: 1s;
+    font-size: 30px
+}
+.tr:hover{
+    color: red;
+
+
+}
+.trr:hover{
+    color: white;
+}
+.equate{
+    border: yellow solid 3px;
+
+    background-color: red;
+}
+
+#box{
+    border: solid black 3px;
+    font-size: large;
+}
+.b{
+    border: solid black 7px;
+}
+
+
+body{
+    background-color: black;
+}
+.b{
+    border: white solid 2px;
+    padding: 30px;
+    color: white;
+
+}
+h1{
+    color:white;
+}
+
+    .x{
+        border: solid black 6px;
+          height: 100px;
+    
+    }
+        .x{
+            display: flex;
+            align-items: center;
+            font-size: 40px;
+            
+            
+
+        }
+    .op{
+        display:  grid;
+        grid-template-rows: auto;
+        grid-gap: 30px;
+
+    }
+    a:hover{
+        color: black;
+        
+    }
+    a{
+        float:  right;
+    }
+    h1{
+        font-size: 50px;
+    }
